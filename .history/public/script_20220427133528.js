@@ -3,7 +3,6 @@ function Universe() {
   Universe = function Universe() {
     return instance;
   };
-  // how to make itsenäisiä ketjuja from same prototype.
   Universe.prototype = this;
   instance = new Universe();
   instance.constructor = Universe;

@@ -3,7 +3,6 @@ function Universe() {
   Universe = function Universe() {
     return instance;
   };
-  // how to make itsenäisiä ketjuja from same prototype.
   Universe.prototype = this;
   instance = new Universe();
   instance.constructor = Universe;
@@ -49,7 +48,7 @@ function start() {
   functionTest.myVar = 50; // from which start branches
 
   Universe.prototype.nothing = true;
-  let uni1 = new Universe();
+  let unil = new Universe();
   console.log(uni1.nothing);
 
   Universe.prototype.everything = false;
@@ -57,7 +56,6 @@ function start() {
   let uni2 = new Universe();
   console.log(uni2.nothing);
   console.log(uni2.everything);
-  // uni1 ja uni2 ovat täysi kaksi eri objektia from same prototype
   console.log(uni1);
   console.log(uni2);
 }
