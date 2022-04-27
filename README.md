@@ -1,2 +1,2 @@
 # 06_prototype_inheritance
-Prototype instances creating and their much more about their properties.  
+Prototype instances creating and more about their properties.  
